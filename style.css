@@ -1,0 +1,85 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+.hero-shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: -1;
+}
+.orange-color{
+  background-color: rgba(255, 102, 0);
+}
+.navbar-brand{
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.nav-link .navbar-toggler-icon{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.navbar-toggler{
+  padding: 1em 2em;
+}
+.Home{
+  position: relative;
+  height: 60rem;
+  z-index: 0;
+  background-image: url(/img/sity.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.Home .btn{
+  font-size: 1.4rem;
+  padding: .5em 2em;
+  text-transform: uppercase;
+}
+.Home .welcome-text{
+  font-size: 2.2rem;
+}
+.aboutus-box h3{
+ font-size: 2.4rem;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+.aboutus-icon{
+  font-size: 4rem;
+}
+.accordion-button{
+  padding: 1em;
+  font-size: 1.8rem;
+}
+.text-accordion{
+  color: red;
+}
+.team{
+  background-color:rgb(248, 248, 248);
+}
+.team .card-img-top{
+  height: 300px;
+  object-fit: cover;
+}
+.team .card-title{
+  font-size: 2rem;
+}
+.contact h3{
+  font-size: 2rem;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+.contact .submit-form{
+  font-size: 1.6rem;
+}
